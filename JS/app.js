@@ -49,4 +49,4 @@ console.log(prezzoArrotondato)
 
 
 // BONUS 
-document.getElementById('stampa').innerHTML = 'prezzo totale' + ' ' + prezzoArrotondato
+document.getElementById('stampa').innerHTML = 'prezzo totale =' + ' ' + prezzoArrotondato
