@@ -44,3 +44,9 @@ let prezzoTotale = prezzoBase - sconto
 
 //stampa prezzo con due decimali
 const prezzoArrotondato = prezzoTotale.toFixed(2)
+console.log(prezzoArrotondato)
+
+
+
+// BONUS 
+document.getElementById('stampa').innerHTML = 'prezzo totale' + ' ' + prezzoArrotondato
